@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 system('clear');
-function kontol(){
+
 function timer($timer){
 date_default_timezone_set('UTC');
 $tim = time()+$timer;
@@ -145,8 +145,28 @@ $ua[]="Upgrade-Insecure-Requests: 1";
 $ua[]="User-Agent: $api";
   return $ua;
 }
+function kontol(){
+system('clear');
+echo "\033[0;31m╔══╗╔═══╗─────╔╗╔═══╗   
+\033[0;31m║╔╗║║╔═╗║────╔╝║║╔═╗║   
+\033[0;31m║╚╝╚╣╚═╝║────╚╗║╚╝╔╝║   
+\033[1;37m║╔═╗║╔══╝╔══╗─║║╔═╝╔╝   
+\033[1;37m║╚═╝║║───╚══╝╔╝╚╣║╚═╗ 
+\033[1;37m╚═══╩╝───────╚══╩═══╝  \n";
 
-
+$api = Save("user-agent");
+$wallet = save("wallet");
+echo Slow("  \033[1;97mCeking Data \033[1;31m•\r");
+sleep(1);
+echo Slow("  \033[1;97mCeking Data \033[1;31m••\r");
+sleep(1);
+echo Slow("  \033[1;97mCeking Data \033[1;31m•••\r");
+sleep(1);
+echo Slow("  \033[1;97mCeking Data \033[1;31m••••\r");
+sleep(1);
+echo Slow("  \033[1;97mCeking Data \033[1;31m•••••\r");
+sleep(1);
+system('clear');
 banner("unlifey");
 echo Slow("\033[1;91m ∆ \033[1;97mYour Faucetpay Email \033[1;32m▶▶\033[1;91m $wallet \n\033[1;97m");
 echo Slow(str_repeat('─',65)."\n");
