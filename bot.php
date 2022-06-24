@@ -163,7 +163,7 @@ $sts = explode('<',explode('<h3 style="color:red;">',$res)[1])[0];
 if($suc){
 echo Slow("\033[1;91m ∆\033[1;32m $suc \033[1;97mFaucetpay.io\n");
 echo Slow(str_repeat('─',65)."\n");
-timer(300);
+timer(60);
 goto lanjut;
 }else{
 echo Slow(" $sts  \r");
