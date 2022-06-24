@@ -80,26 +80,7 @@ function Save($namadata){
 	return $data;
 }
 
-echo "\033[0;31m╔══╗╔═══╗─────╔╗╔═══╗   
-\033[0;31m║╔╗║║╔═╗║────╔╝║║╔═╗║   
-\033[0;31m║╚╝╚╣╚═╝║────╚╗║╚╝╔╝║   
-\033[1;37m║╔═╗║╔══╝╔══╗─║║╔═╝╔╝   
-\033[1;37m║╚═╝║║───╚══╝╔╝╚╣║╚═╗ 
-\033[1;37m╚═══╩╝───────╚══╩═══╝  \n";
 
-$api = Save("user-agent");
-$wallet = save("wallet");
-echo Slow("  \033[1;97mCeking Data \033[1;31m•\r");
-sleep(1);
-echo Slow("  \033[1;97mCeking Data \033[1;31m••\r");
-sleep(1);
-echo Slow("  \033[1;97mCeking Data \033[1;31m•••\r");
-sleep(1);
-echo Slow("  \033[1;97mCeking Data \033[1;31m••••\r");
-sleep(1);
-echo Slow("  \033[1;97mCeking Data \033[1;31m•••••\r");
-sleep(1);
-system('clear');
 
 function curl($url, $post = 0, $httpheader = 0, $proxy = 0){
 $ch = curl_init();
@@ -146,8 +127,6 @@ $ua[]="User-Agent: $api";
   return $ua;
 }
 function kontol(){
-echo "Script Disable \n";
-exit;
 system('clear');
 echo "\033[0;31m╔══╗╔═══╗─────╔╗╔═══╗   
 \033[0;31m║╔╗║║╔═╗║────╔╝║║╔═╗║   
@@ -155,6 +134,9 @@ echo "\033[0;31m╔══╗╔═══╗─────╔╗╔═══╗
 \033[1;37m║╔═╗║╔══╝╔══╗─║║╔═╝╔╝   
 \033[1;37m║╚═╝║║───╚══╝╔╝╚╣║╚═╗ 
 \033[1;37m╚═══╩╝───────╚══╩═══╝  \n";
+
+echo "Script Disable \n";
+exit;
 
 $api = Save("user-agent");
 $wallet = save("wallet");
