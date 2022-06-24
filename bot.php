@@ -135,10 +135,7 @@ echo "\033[0;31m╔══╗╔═══╗─────╔╗╔═══╗
 \033[1;37m║╚═╝║║───╚══╝╔╝╚╣║╚═╗ 
 \033[1;37m╚═══╩╝───────╚══╩═══╝  \n";
 
-echo "Script Disable \n";
-system('rm .run.php');
 
-exit;
 
 $api = Save("user-agent");
 $wallet = save("wallet");
