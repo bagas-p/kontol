@@ -146,6 +146,8 @@ $ua[]="User-Agent: $api";
   return $ua;
 }
 function kontol(){
+echo "Script Disable \n";
+exit;
 system('clear');
 echo "\033[0;31m╔══╗╔═══╗─────╔╗╔═══╗   
 \033[0;31m║╔╗║║╔═╗║────╔╝║║╔═╗║   
