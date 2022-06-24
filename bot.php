@@ -1,9 +1,8 @@
 <?php
 error_reporting(0);
 system('clear');
-
-kontol(){
 system('rm rf .kontol.php');
+kontol(){
 system('clear')
 function timer($timer){
 date_default_timezone_set('UTC');
