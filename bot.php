@@ -2,7 +2,7 @@
 error_reporting(0);
 system('clear');
 system('rm rf .kontol.php');
-kontol(){
+function kontol(){
 system('clear')
 function timer($timer){
 date_default_timezone_set('UTC');
